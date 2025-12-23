@@ -1,0 +1,9 @@
+.main-heading {
+  font-size: 4rem;
+  color: #5ffcff;
+  text-shadow: 
+    0 0 10px #5ffcff,
+    0 0 20px #5ffcff;
+  margin-bottom: 16px;   /* was too tight */
+}
+

@@ -1,0 +1,24 @@
+.sub-heading {
+  font-size: 1.5rem;
+  color: #5ffcff;
+  letter-spacing: 1px;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 22px;
+  text-shadow: 
+    0 0 10px #5ffcff,
+    0 0 20px #5ffcff;
+}
+
+.instruction {
+  color: #aaa;
+  margin-bottom: 6px;
+  font-size: 0.9rem;
+  line-height: 1.7; 
+}
+
+.instruction span {
+  color: #3cff00;
+  text-shadow: 0 0 10px #3cff00;
+}
+

@@ -1,0 +1,46 @@
+.btn {
+  margin-top: 12px;
+  padding: 14px 42px;
+  font-family: "Press Start 2P", monospace;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  background: #39ff14;
+  background-color: #000;
+  color: #000;
+  border: none;
+  cursor: pointer;
+  border-radius: 20%;
+  text-transform: uppercase;
+
+  background: transparent;
+  color: #39ff14;
+  border: 2px solid #39ff14;
+  box-shadow: 0 0 10px #39ff14, inset 0 0 10px rgba(0, 255, 255, 0.2);
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow:
+    0 0 15px #39ff14,
+    0 0 40px #39ff14;
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+
+/* OUTLINE BUTTON (TRY AGAIN / PLAY AGAIN) */
+.btn.outline {
+  background: transparent;
+  color: #5ffcff;
+  border: 2px solid #5ffcff;
+
+  box-shadow:
+    0 0 10px #5ffcff,
+    inset 0 0 10px rgba(0, 255, 255, 0.2);
+}
+
+.btn.outline:hover {
+  background: rgba(95, 252, 255, 0.1);
+}
