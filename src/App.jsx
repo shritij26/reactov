@@ -5,7 +5,7 @@ import Button from "./components/Button";
 import "./App.css";
 import startSound from "./assets/Start.mp3";
 import tooSoonSound from "./assets/TooSoon.mov";
-import successSound from "./assets/Success.mp3";
+import successSound from "./assets/success.mp3";
 
 function App() {
   const [gameState, setGameState] = useState("idle");
