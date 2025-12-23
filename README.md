@@ -1,7 +1,7 @@
 # Reactov ⚡
 
 **Reactov** stands for  
-👉 **REACTion On Viewing**
+**REACTion On Viewing**
 
 A fast-paced **reaction time web game** built with **React + Vite**, designed to test how quickly a user responds to visual cues.
 
