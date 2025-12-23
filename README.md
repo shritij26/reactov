@@ -1,16 +1,54 @@
-# React + Vite
+# Reactov ⚡
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Reactov** stands for  
+👉 **REACTion On Viewing**
 
-Currently, two official plugins are available:
+A fast-paced **reaction time web game** built with **React + Vite**, designed to test how quickly a user responds to visual cues.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🎮 About the Game
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Press **START**
+- Screen turns **RED** → wait
+- When it turns **GREEN**, click as fast as you can
+- Clicking too early results in **Too Soon**
+- Final screen displays your **reaction time** with fun feedback
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🖼️ Screenshots
+
+<p align="center">
+  <img src="pic/Start.png" alt="Start Screen" width="45%" />
+  <img src="pic/Score.png" alt="Result Screen" width="45%" />
+</p>
+
+---
+
+## ✨ Features
+
+- Real-time reaction timer
+- Fun performance feedback
+- Sound effects for start, success, and false start
+- Clean UI with animated background
+- Built using modern React practices
+
+---
+
+## 🛠️ Tech Stack
+
+- React
+- Vite
+- JavaScript
+- CSS
+
+---
+
+## 📦 Clone & Run the Project
+
+```bash
+git clone https://github.com/shritij26/reactov.git
+cd reactov
+npm install
+npm run dev
