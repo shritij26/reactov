@@ -41,7 +41,7 @@ A fast-paced **reaction time web game** built with **React + Vite**, designed to
 - React
 - Vite
 - JavaScript
-- CSS
+- Vanilla CSS
 
 ---
 
